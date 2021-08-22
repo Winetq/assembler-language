@@ -9,10 +9,10 @@ public _szybki_max
 	 push ebp
 	 mov ebp, esp
 
-	 ; ebp											[ebp+0]
-	 ; adres powrotu								[ebp+4]
-	 ; adres pierwszego elementu tablicy t1			[ebp+8]
-	 ; adres pierwszego elementu tablicy t2			[ebp+12]
+	 ; ebp [ebp+0]
+	 ; adres powrotu [ebp+4]
+	 ; adres pierwszego elementu tablicy t1 [ebp+8]
+	 ; adres pierwszego elementu tablicy t2 [ebp+12]
 
 	 mov eax, [ebp+8]
 	 movups xmm0, [eax]

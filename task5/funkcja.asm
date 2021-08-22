@@ -13,15 +13,15 @@ public _dot_product
 	push esi
 	mov ebp, esp 
 
-	; stos
-	; esi											[ebp+0]
-	; ebx											[ebp+4]
-	; edi											[ebp+8]
-	; ebp											[ebp+12]
-	; slad											[ebp+16]
-	; adres pierwszego elementu tablicy tab1		[ebp+20]
-	; adres pierwszego elementu tablicy tab2		[ebp+24]
-	; n												[ebp+28]
+	; stos:
+	; esi [ebp+0]
+	; ebx [ebp+4]
+	; edi [ebp+8]
+	; ebp [ebp+12]
+	; slad [ebp+16]
+	; adres pierwszego elementu tablicy tab1 [ebp+20]
+	; adres pierwszego elementu tablicy tab2 [ebp+24]
+	; n [ebp+28]
 
 	mov eax, 0
 	mov edx, 0

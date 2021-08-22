@@ -12,13 +12,13 @@ public _szukaj_elem_max
 	push esi
 	mov ebp, esp 
 
-	; stos
-	; esi									[ebp+0]
-	; ebx									[ebp+4]
-	; ebp									[ebp+8]
-	; slad									[ebp+12]
-	; adres pierwszego elementu tablicy		[ebp+16]
-	; n										[ebp+20]
+	; stos:
+	; esi [ebp+0]
+	; ebx [ebp+4]
+	; ebp [ebp+8]
+	; slad [ebp+12]
+	; adres pierwszego elementu tablicy [ebp+16]
+	; n [ebp+20]
 
 	mov ecx, [ebp+20] ; ecx = n
 	mov ebx, [ebp+16] ; adres pierwszego elementu tablicy

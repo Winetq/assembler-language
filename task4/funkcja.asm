@@ -9,12 +9,12 @@ public _odejmowanie
 
 	push ebx
 
-	; stos
+	; stos:
 	; ebx
-	; ebp				[ebp+0]
-	; adres powrotu		[ebp+4]
-	; wsk				[ebp+8]
-	; b					[ebp+12]
+	; ebp [ebp+0]
+	; adres powrotu [ebp+4]
+	; wsk [ebp+8]
+	; b [ebp+12]
 
 	mov ebx, [ebp+8]
 

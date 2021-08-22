@@ -9,12 +9,12 @@ public _objetosc_stozka
 	push ebp
 	mov ebp, esp
 
-	; stos
-	; ebp											[ebp+0]
-	; adres powrotu									[ebp+4]
-	; big_r											[ebp+8]
-	; small_r										[ebp+12]
-	; h												[ebp+16]
+	; stos:
+	; ebp [ebp+0]
+	; adres powrotu [ebp+4]
+	; big_r [ebp+8]
+	; small_r [ebp+12]
+	; h [ebp+16]
 
 	finit
 
