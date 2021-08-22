@@ -6,7 +6,7 @@ int main()
 {
 	float q[3] = { 0.5, 0.0, 0.5 };
 	float wynik = entropy(q, 3);
-	printf("%f", wynik); // 1.0 (DZIA£A)
+	printf("%f", wynik); // 1.0 (OK)
 
 	return 0;
 }
